@@ -1,4 +1,5 @@
 # Linear Search and Binary search
+## DATE:12.09.2023
 ## Aim:
 To write a program to perform linear search and binary search using python programming.
 ## Equipment’s required:
@@ -16,11 +17,9 @@ To write a program to perform linear search and binary search using python progr
 4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
-
 ## Program:
 i)	# Use a linear search method to match the item in a list.
 ```
-
 ###Program for linear search method to match the item in a list
 ###Developed by:PAVANA G
 ###RegisterNumber: 212222230105
@@ -41,11 +40,9 @@ if(result==-1):
 else:
     print(array)
     print("Element found at index: ",result)
-    
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
 ###Program to find the element in a list using Binary Search(Iterative Method)..
 ###Developed by:PAVANA G
 ###RegisterNumber: 212222230105
@@ -70,11 +67,9 @@ if(result==-1):
 else:
     print(array)
     print("Element found at index: ",result)
-
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
- 
 ###Program to find the element in a list using Binary Search (recursive Method).
 ###Developed by: PAVANA G
 ###RegisterNumber: 212222230105
@@ -100,7 +95,6 @@ if(result==-1):
 else:
     print(arr)
     print("Element found at index: ",result)
-
 ```
 ## Sample Input and Output
 ![Linear Search and Binary search](search1.png)
